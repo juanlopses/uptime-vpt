@@ -1,0 +1,15 @@
+{
+  "name": "website-monitor",
+  "version": "1.0.0",
+  "description": "Monitor de sitios web similar a UptimeRobot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "axios": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}
