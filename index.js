@@ -97,7 +97,7 @@ const htmlContent = `
 
         monitors.forEach(monitor => {
           const row = document.createElement('tr');
-          row.innerHTML = `
+          row.innerHTML = \`
             <td class="p-3">\${monitor.url}</td>
             <td class="p-3">
               <span class="inline-block px-2 py-1 rounded-full text-sm 
@@ -113,7 +113,7 @@ const htmlContent = `
                 Eliminar
               </button>
             </td>
-          `;
+          \`;
           tableBody.appendChild(row);
         });
       } catch (error) {
